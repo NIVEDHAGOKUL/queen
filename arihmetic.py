@@ -1,8 +1,5 @@
-n=int(input("Enter the number of elements:"))
-m=[]
-sum=0
-for i in range (1,n+1):
-    a=int(input("Enter the number:"))
-    m.append(a)
-    sum=sum+i
-print (sum)
+n=int(input("enter the number"))
+a=int(input("enter the other value"))
+b=int(input("enter the value"))
+s=(n/2)*(2*a+(n-1)*b)
+print (s)
